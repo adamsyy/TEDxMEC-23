@@ -1,6 +1,6 @@
 # TEDx MEC Website
 
-![[TEDx MEC Logo](https://github.com/adamsyy/TEDxMEC-23/assets/75473780/ba3e26fd-eb21-478d-b08f-c53a23f78afd)
+!TEDx MEC Logo](https://github.com/adamsyy/TEDxMEC-23/assets/75473780/ba3e26fd-eb21-478d-b08f-c53a23f78afd)
 
 ## Description
 
@@ -40,9 +40,6 @@ We welcome contributions to improve this project. If you'd like to contribute, p
 
 3. Submit a pull request with a clear description of your changes.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
