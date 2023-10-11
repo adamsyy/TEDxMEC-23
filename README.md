@@ -1,6 +1,6 @@
 # TEDx MEC Website
 
-![TEDx MEC Logo](https://i.ibb.co/yYV4hRV/IMG-5596.jpg)
+![[TEDx MEC Logo](https://github.com/adamsyy/TEDxMEC-23/assets/75473780/ba3e26fd-eb21-478d-b08f-c53a23f78afd)
 
 ## Description
 
@@ -49,7 +49,7 @@ This project is licensed under the [MIT License](LICENSE).
 If you have any questions or suggestions, feel free to reach out to us:
 
 - Email: your-email@example.com
-- Visit our website: [TEDx MEC](https://www.example.com)
+- Visit our website: [TEDx MEC](https://tedxmec.in/)
 
 Thank you for your interest in TEDx MEC!
 
