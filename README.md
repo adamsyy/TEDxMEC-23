@@ -1,6 +1,7 @@
 # TEDx MEC Website
 
-!TEDx MEC Logo](https://github.com/adamsyy/TEDxMEC-23/assets/75473780/ba3e26fd-eb21-478d-b08f-c53a23f78afd)
+
+![tedxmeclogo](https://github.com/adamsyy/TEDxMEC-23/assets/75473780/725dbc24-fb0c-48e4-90fc-c36ee3612157)
 
 ## Description
 
