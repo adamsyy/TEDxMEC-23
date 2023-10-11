@@ -1,6 +1,55 @@
-# tedxfinaltemplate
-<a href="https://ibb.co/xf3Fms3"><img src="https://i.ibb.co/yYV4hRV/IMG-5596.jpg" alt="IMG-5596" border="0"></a>
-<a href="https://ibb.co/Y8nQfSL"><img src="https://i.ibb.co/hHQ92Nm/IMG-5595.jpg" alt="IMG-5595" border="0"></a>
-<a href="https://ibb.co/p2tjvnd"><img src="https://i.ibb.co/Q92vFXM/IMG-5594.jpg" alt="IMG-5594" border="0"></a>
-<a href="https://ibb.co/0yqprM2"><img src="https://i.ibb.co/WvnNfy5/IMG-5593.jpg" alt="IMG-5593" border="0"></a>
-<a href="https://ibb.co/gWJnCKR"><img src="https://i.ibb.co/B6B1RMC/IMG-5592.jpg" alt="IMG-5592" border="0"></a>
+# TEDx MEC Website
+
+![TEDx MEC Logo](https://i.ibb.co/yYV4hRV/IMG-5596.jpg)
+
+## Description
+
+The TEDx MEC website is a web application created using HTML, CSS, and JavaScript. It serves as a platform to promote and share information about TEDx events at MEC (Your organization's name), featuring various talks and speakers who have shared their innovative ideas.
+
+## Features
+
+- **Event Information**: Get the latest details about upcoming TEDx events at MEC, including dates, themes, and speakers.
+
+- **Talks and Speakers**: Browse through an archive of past TEDx talks and learn about the inspiring speakers who have graced the TEDx stage.
+
+- **Media Gallery**: Explore a gallery of event photos and videos to relive the TEDx experience.
+
+## Screenshots
+
+![Screenshot 1](https://i.ibb.co/yYV4hRV/IMG-5596.jpg)
+![Screenshot 2](https://i.ibb.co/Y8nQfSL/IMG-5595.jpg)
+![Screenshot 3](https://i.ibb.co/hHQ92Nm/IMG-5595.jpg)
+
+## Installation
+
+To run this website locally, follow these steps:
+
+1. Clone the repository to your local machine.
+
+2. Open the project folder in your code editor.
+
+3. Launch the website by opening the `index.html` file in your preferred web browser.
+
+## Contributing
+
+We welcome contributions to improve this project. If you'd like to contribute, please follow these guidelines:
+
+1. Fork the repository on GitHub.
+
+2. Make your changes and create a new branch.
+
+3. Submit a pull request with a clear description of your changes.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Contact
+
+If you have any questions or suggestions, feel free to reach out to us:
+
+- Email: your-email@example.com
+- Visit our website: [TEDx MEC](https://www.example.com)
+
+Thank you for your interest in TEDx MEC!
+
