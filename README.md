@@ -19,7 +19,7 @@ The TEDx MEC website is a web application created using HTML, CSS, and JavaScrip
 
 ![Screenshot 1](https://i.ibb.co/yYV4hRV/IMG-5596.jpg)
 ![Screenshot 2](https://i.ibb.co/Y8nQfSL/IMG-5595.jpg)
-![Screenshot 3](https://i.ibb.co/hHQ92Nm/IMG-5595.jpg)
+
 
 ## Installation
 
