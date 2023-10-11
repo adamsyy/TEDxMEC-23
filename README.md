@@ -46,7 +46,7 @@ We welcome contributions to improve this project. If you'd like to contribute, p
 
 If you have any questions or suggestions, feel free to reach out to us:
 
-- Email: your-email@example.com
+- Email:contact@tedxmec.in
 - Visit our website: [TEDx MEC](https://tedxmec.in/)
 
 Thank you for your interest in TEDx MEC!
