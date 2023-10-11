@@ -5,7 +5,7 @@
 
 ## Description
 
-The TEDx MEC website is a web application created using HTML, CSS, and JavaScript. It serves as a platform to promote and share information about TEDx events at MEC (Your organization's name), featuring various talks and speakers who have shared their innovative ideas.
+The TEDx MEC website is a web application created using HTML, CSS, and JavaScript. It serves as a platform to promote and share information about TEDx events at MEC, featuring various talks and speakers who have shared their innovative ideas.
 
 ## Features
 
