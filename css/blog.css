@@ -198,27 +198,27 @@ html {
   }
   
   .w-icon-slider-right:before {
-    content: "";
+    content: "î˜€";
   }
   
   .w-icon-slider-left:before {
-    content: "";
+    content: "î˜";
   }
   
   .w-icon-nav-menu:before {
-    content: "";
+    content: "î˜‚";
   }
   
   .w-icon-arrow-down:before, .w-icon-dropdown-toggle:before {
-    content: "";
+    content: "î˜ƒ";
   }
   
   .w-icon-file-upload-remove:before {
-    content: "";
+    content: "î¤€";
   }
   
   .w-icon-file-upload-icon:before {
-    content: "";
+    content: "î¤ƒ";
   }
   
   * {
