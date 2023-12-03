@@ -12,7 +12,10 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
     window.addEventListener("scroll", function () {
         var offset = window.scrollY;
-        videoContainer.style.opacity = 1 - offset / (videoContainer.clientHeight / 2);
+        var opacity = 1 - offset / (videoContainer.clientHeight / 2);
+        
+        // Set background color dynamically
+        document.body.style.backgroundColor = 'black';
 
         // If you want to stop the video when it's not visible
         if (offset >= videoContainer.clientHeight) {
