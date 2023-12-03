@@ -2388,7 +2388,7 @@ html {
   }
   
   .nav-container.chinese-black-bg {
-    padding-left: 32px;
+    padding-left: 10px;
     padding-right: 4px;
   }
   
@@ -3735,6 +3735,7 @@ html {
     padding-top: 140px;
     padding-bottom: 112px;
     display: flex;
+    height: 100vh;
   }
   
   .hero-avatar-wrap {
@@ -3758,7 +3759,7 @@ html {
   
   .hero-avatar-img-wrap {
     width: 120px;
-    height: 120px;
+    height: 50px;
     background-image: linear-gradient(rgba(55, 55, 55, 0), #2d2d2d);
     border: 1px solid #494949;
     border-radius: 8px;
@@ -4272,8 +4273,13 @@ html {
     .hero-section {
       padding-top: 100px;
       padding-bottom: 80px;
+      justify-content: center;
+      align-items: center;
     }
-  
+    .hero-section .hero-content{
+      transform: translateY(-8em);
+    }
+
     .skill-title-wrap {
       margin-bottom: 60px;
     }
@@ -4650,6 +4656,7 @@ html {
     .nav-container {
       margin-left: 20px;
       margin-right: 20px;
+
     }
   
     .log-infos-inside {
