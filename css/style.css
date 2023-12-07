@@ -4090,7 +4090,7 @@ html {
     }
   }
   
-  @media screen and (max-width: 991px) {
+  @media screen and (max-width: 1025px) {
     .custom-container.in-testmonial {
       padding-left: 40px;
     }
@@ -4198,7 +4198,7 @@ html {
       grid-template-columns: 1fr 1fr;
     }
     .blog-img{
-      width: 250px;
+      width: 280px;
     }
     .blog-img-wrap.chinese-black-bg {
       width: 100%;
