@@ -3052,7 +3052,7 @@ html {
   }
   
   .blog-title {
-    margin-top: 100px;
+    margin-top: 0;
     margin-bottom: 0;
   }
   
@@ -3752,17 +3752,17 @@ html {
     right: 0%;
   }
   
-  /* .header {
+  .header {
     background-image: url("https://assets.website-files.com/64b4320d9bd69e8f6cf59f6e/64bed760d47267283cb03a76_Star%201.svg"), url("https://assets.website-files.com/64b4320d9bd69e8f6cf59f6e/64bed5b14b4d688eb0c564a1_Star%202.svg");
     background-position: 121% 55%, 0 0;
     background-repeat: no-repeat, no-repeat;
     background-size: 480px 480px, auto;
     padding-bottom: 170px;
-  } */
+  }
   
   .hero-section {
     justify-content: center;
-    padding-top: 180px;
+    padding-top: 140px;
     padding-bottom: 112px;
     display: flex;
     height: 100vh;
@@ -3847,7 +3847,6 @@ html {
   .skill-section {
     justify-content: center;
     display: flex;
-    padding-bottom: 7%;
   }
   
   .skill-title-wrap {

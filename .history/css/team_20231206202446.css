@@ -1,35 +1,32 @@
+.team-top{
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
 
 html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     font-family: sans-serif;
   }
-
+  
   body {
     margin: 0;
   }
-  .themetitle{
-    color:red;
-    font-size:50px;
+
+.person-name {
+margin-top: 30px;
+
+text-align: left;
+  -webkit-text-fill-color: transparent;
+  background-image: radial-gradient(circle,red, rgba(255, 255, 255, .15));
+  -webkit-background-clip: text;
+  background-clip: text; 
+  font-size:26px;
   font-family: Arial, sans-serif;
-  }
-  #hehe{
-      
 
-    -webkit-text-fill-color: transparent;
-    background-image: radial-gradient(circle,red, rgba(255, 255, 255, .15));
-    -webkit-background-clip: text;
-    background-clip: text;
-  }
-  #speakertitle{
-    -webkit-text-fill-color: transparent;
-    background-image: radial-gradient(circle,red, rgba(255, 255, 255, .15));
-    -webkit-background-clip: text;
-    background-clip: text;  
-  
-  }
-
-
+} */
   article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
     display: block;
   }
@@ -38,8 +35,8 @@ html {
     vertical-align: baseline;
     display: inline-block;
   }
+ 
 
-  
   audio:not([controls]) {
     height: 0;
     display: none;
@@ -160,7 +157,7 @@ html {
     box-sizing: border-box;
     padding: 0;
   }
-  
+
   input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {
     height: auto;
   }
@@ -243,7 +240,6 @@ html {
   .w-icon-file-upload-icon:before {
     content: "";
   }
-  
   
   * {
     box-sizing: border-box;
@@ -2210,40 +2206,10 @@ html {
     margin-right: auto;
   }
   
-  body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-    background: black; 
-}
-
-#video-container {
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-    z-index: -1;
-}
-
-.video-bg {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Make the video responsive */
-}
-
-.content {
-    padding-top: 100vh; /* Adjust this value to match the video container height */
-}
-
-.header {
-    color: white; /* Set text color as needed */
-}
-
-.main {
-    z-index: 1;
-    position: relative;
-    color: white; /* Set text color as needed */
-}
+  .body---black {
+    background-color: #0a0a0a;
+  }
+  
   .typography-section {
     justify-content: center;
     padding-bottom: 160px;
@@ -2418,7 +2384,7 @@ html {
   }
   
   .nav-container.chinese-black-bg {
-    padding-left: 10px;
+    padding-left: 32px;
     padding-right: 4px;
   }
   
@@ -2523,7 +2489,7 @@ html {
   }
   
   .button-01---r.body-02---r.white-text {
-    background-image: linear-gradient(to right, rgb(238,40,6), rgba(0, 0, 0, 0));
+    background-image: linear-gradient(to right, #1e1e1e, rgba(0, 0, 0, 0));
   }
   
   .button---icon {
@@ -2773,7 +2739,6 @@ html {
     border-right: 1px solid var(--night-rider);
     padding: 80px 60px;
   }
-
   
   .complete-text {
     width: 100%;
@@ -3052,7 +3017,7 @@ html {
   }
   
   .blog-title {
-    margin-top: 100px;
+    margin-top: 0;
     margin-bottom: 0;
   }
   
@@ -3532,7 +3497,7 @@ html {
   
   .menual---about {
     width: 100%;
-
+    max-width: 477px;
     border: 1px solid var(--night-rider);
     border-radius: 14px;
     padding: 32px;
@@ -3752,20 +3717,19 @@ html {
     right: 0%;
   }
   
-  /* .header {
+  .header {
     background-image: url("https://assets.website-files.com/64b4320d9bd69e8f6cf59f6e/64bed760d47267283cb03a76_Star%201.svg"), url("https://assets.website-files.com/64b4320d9bd69e8f6cf59f6e/64bed5b14b4d688eb0c564a1_Star%202.svg");
     background-position: 121% 55%, 0 0;
     background-repeat: no-repeat, no-repeat;
     background-size: 480px 480px, auto;
     padding-bottom: 170px;
-  } */
+  }
   
   .hero-section {
     justify-content: center;
-    padding-top: 180px;
+    padding-top: 140px;
     padding-bottom: 112px;
     display: flex;
-    height: 100vh;
   }
   
   .hero-avatar-wrap {
@@ -3784,17 +3748,16 @@ html {
     height: 100%;
     object-fit: cover;
     border-radius: 8px;
-    filter: grayscale(100%);
   }
   
   .hero-avatar-img-wrap {
     width: 120px;
-    height: 50px;
+    height: 120px;
     background-image: linear-gradient(rgba(55, 55, 55, 0), #2d2d2d);
     border: 1px solid #494949;
     border-radius: 8px;
     margin-bottom: 14px;
-    padding: 6px;
+    padding: 10px;
     overflow: hidden;
   }
   
@@ -3847,7 +3810,6 @@ html {
   .skill-section {
     justify-content: center;
     display: flex;
-    padding-bottom: 7%;
   }
   
   .skill-title-wrap {
@@ -4304,13 +4266,8 @@ html {
     .hero-section {
       padding-top: 100px;
       padding-bottom: 80px;
-      justify-content: center;
-      align-items: center;
     }
-    .hero-section .hero-content{
-      transform: translateY(-8em);
-    }
-
+  
     .skill-title-wrap {
       margin-bottom: 60px;
     }
@@ -4617,9 +4574,8 @@ html {
     .skill-title.heading-02.gradient-text {
       font-size: 48px;
       line-height: 58px;
-
     }
-
+  
     .skill-list {
       grid-template-columns: 1fr;
     }
@@ -4687,7 +4643,6 @@ html {
     .nav-container {
       margin-left: 20px;
       margin-right: 20px;
-
     }
   
     .log-infos-inside {
