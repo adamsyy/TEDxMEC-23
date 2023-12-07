@@ -5153,7 +5153,6 @@ html {
     font-style: normal;
     font-display: swap;
   }
-  #sp-text{
-    margin-top: 0;
-    padding-bottom: 0;
+  #title-b{
+    font-size: 10px;
   }

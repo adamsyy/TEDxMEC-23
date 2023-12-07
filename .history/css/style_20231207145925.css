@@ -5157,3 +5157,7 @@ html {
     margin-top: 0;
     padding-bottom: 0;
   }
+  #sp-text2{
+    margin-top: -100px;
+    padding-bottom: -100px;
+  }

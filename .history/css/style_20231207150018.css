@@ -2581,6 +2581,7 @@ html {
     justify-content: center;
     padding-bottom: 40px;
     display: flex;
+    padding-top: 0px;
   }
   
   .footer-social {

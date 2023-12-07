@@ -5154,6 +5154,5 @@ html {
     font-display: swap;
   }
   #sp-text{
-    margin-top: 0;
-    padding-bottom: 0;
+    margin-top: -2000px;
   }
