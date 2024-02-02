@@ -4434,8 +4434,10 @@ html {
     }
   
     .complete-text-wrap {
-      border-bottom: 1px solid var(--night-rider);
       border-right-style: none;
+    }
+    .theme-image {
+      border-bottom: 1px solid var(--night-rider);
     }
   
     .complete-showcase-item.border--right, .complete-showcase-item.border--right.border--bottom {
