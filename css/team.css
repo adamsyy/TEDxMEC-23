@@ -22,6 +22,7 @@ html {
   }
 
 .person-name {
+  padding-left: 20px;
 margin-top: 30px;
 padding-bottom: 4px;
 text-align: left;
@@ -34,6 +35,9 @@ text-align: left;
 
 }
 .person-position {
+  padding-left: 20px;
+  text-align: left;
+  max-width: 200px;
   font-style: italic;
   word-wrap: break-word; 
   margin-top: 26px;
@@ -5140,11 +5144,15 @@ margin-bottom: 30px;
     font-display: swap;
   }
 
-  .person {
+ 
+
+.contain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 300px;
-    text-align: center; 
     margin-bottom: 20px; 
+    justify-content: center;
+    width: 100%;
+    height: 100%;
 }
-
-
-
