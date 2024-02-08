@@ -5321,3 +5321,10 @@ html {
   }
   
 }
+
+.skill-title1 {
+  padding-top: 60px;
+  text-align: center;
+  font-size: 4em; /* Adjust font size as needed for responsiveness */
+  margin-bottom: 0px; /* Add margin to separate from the section */
+}
