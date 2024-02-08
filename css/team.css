@@ -3,8 +3,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center; /* Center the content horizontally */
-  column-gap: 40px;
-  row-gap: 80px;
+  gap: 40px;
   padding-left: 30px;
   padding-right: 30px;
 
@@ -24,7 +23,7 @@ html {
 
 .person-name {
 margin-top: 30px;
-
+padding-bottom: 4px;
 text-align: left;
   -webkit-text-fill-color: transparent;
   background-image: radial-gradient(circle,red, rgba(255, 255, 255, .15));
@@ -35,7 +34,10 @@ text-align: left;
 
 }
 .person-position {
-  margin-top: 30px;
+  font-style: italic;
+  word-wrap: break-word; 
+  margin-top: 26px;
+  padding-bottom: 5px;
   
   text-align: left;
     -webkit-text-fill-color: transparent;    
@@ -3177,8 +3179,9 @@ margin-bottom: 30px;
   }
   
   .moving-project-item {
-    width: 270%;
+    width: 270px;
     height: 270px;
+    min-width: 270px;
     max-width: 270px;
     border: 1px solid var(--night-rider);
     border-radius: 50%;
@@ -4483,7 +4486,7 @@ margin-bottom: 30px;
       padding-bottom: 100px;
     }
   
-    .moving-project-item.chinese-black-bg, .moving-project-item---n.chinese-black-bg {
+    .moving-project-item---n.chinese-black-bg {
       height: 200px;
       max-width: 200px;
     }
@@ -5136,4 +5139,12 @@ margin-bottom: 30px;
     font-style: normal;
     font-display: swap;
   }
- 
+
+  .person {
+    width: 300px;
+    text-align: center; 
+    margin-bottom: 20px; 
+}
+
+
+
