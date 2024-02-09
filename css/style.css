@@ -2816,8 +2816,11 @@ html {
     justify-content: center;
     align-items: center;
     padding: 50px;
-    padding-bottom: 500px;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, rgba(5, 5, 5, 0.868) 50%);
+    padding-bottom: 1000px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.1) 60%);
+
+
+
   }
   .cube-text-container .cube-text{
     max-width: 80%;
@@ -2825,9 +2828,16 @@ html {
   .recent-porject{
     background-color: black;
   }
+
   @keyframes parallax {
     to{
-      transform: translateY(calc(var(--parallax-speed) * -50px));
+      transform: translateY(calc(var(--parallax-speed) * -48px));
+    }
+    20%{
+      opacity: 1;
+    }
+    28%{
+      opacity: 0;
     }
   }
     .complete-text {
@@ -3602,6 +3612,7 @@ html {
     border: 1px solid var(--night-rider);
     border-radius: 14px;
     padding: 32px;
+
   }
   
   .reviews---about {
@@ -4440,11 +4451,6 @@ html {
       padding-bottom: 0;
       display: flex;
     }
-    @keyframes parallax {
-      to{
-        transform: translateY(calc(var(--parallax-speed) * -65px));
-      }
-    }
   }
   
   @media screen and (max-width: 769px) {
@@ -4739,7 +4745,17 @@ html {
     .blog-section---home {
       padding-bottom: 0;
     }
-    
+    @keyframes parallax {
+      to{
+        transform: translateY(calc(var(--parallax-speed) * -65px));
+      }
+      20%{
+        opacity: 1;
+      }
+      35%{
+        opacity: 0;
+      }
+    }
   }
   
   @media screen and (max-width: 479px) {
@@ -4749,6 +4765,14 @@ html {
       @keyframes parallax {
         to{
           transform: translateY(calc(var(--parallax-speed) * -80px));
+        }
+        13%{
+          opacity: 1;
+          /* background-color: red; */
+        }
+        22%{
+          opacity: 0;
+          /* background-color: blue; */
         }
       }
     h4 {
