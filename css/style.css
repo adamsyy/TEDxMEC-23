@@ -2785,11 +2785,67 @@ html {
     padding: 80px 60px;
   }
 
-  
-  .complete-text {
-    width: 100%;
-    max-width: 500px;
+  body{
+    --parallax-speed: 100;
   }
+  .cube-section{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    z-index: 0;
+    
+  }
+  .cube-section .theme-image{
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+    object-fit: cover;
+    object-position: top;
+  }
+  .cube-text-section{
+    position: absolute;
+    animation: parallax linear;
+    animation-timeline: scroll();
+  }
+  .cube-text-container{
+    width: 100vw;
+    height: 400vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    padding-bottom: 1000px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.1) 60%);
+
+
+
+  }
+  .cube-text-container .cube-text{
+    max-width: 60%;
+  }
+  .recent-porject{
+    background-color: black;
+  }
+
+  @keyframes parallax {
+    to{
+      transform: translateY(calc(var(--parallax-speed) * -48px));
+    }
+    24%{
+      opacity: 1;
+    }
+    28%{
+      opacity: 0;
+    }
+  }
+    .complete-text {
+      z-index: 2;
+      width: 100%;
+      max-width: 500px;
+    }
+    
   
   .complete-text.body-01---m.white-text {
     margin-bottom: 40px;
@@ -3556,6 +3612,7 @@ html {
     border: 1px solid var(--night-rider);
     border-radius: 14px;
     padding: 32px;
+
   }
   
   .reviews---about {
@@ -4396,7 +4453,7 @@ html {
     }
   }
   
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 769px) {
     
     h4 {
       margin-top: 45px;
@@ -4688,10 +4745,39 @@ html {
     .blog-section---home {
       padding-bottom: 0;
     }
-    
+    @keyframes parallax {
+      to{
+        transform: translateY(calc(var(--parallax-speed) * -65px));
+      }
+      20%{
+        opacity: 1;
+      }
+      35%{
+        opacity: 0;
+      }
+    }
   }
   
   @media screen and (max-width: 479px) {
+    .cube-text-container{
+      padding-bottom:2000px;
+    }
+    .cube-text-container .cube-text{
+      max-width: 80%;
+    }
+      @keyframes parallax {
+        to{
+          transform: translateY(calc(var(--parallax-speed) * -80px));
+        }
+        13%{
+          opacity: 1;
+          /* background-color: red; */
+        }
+        20%{
+          opacity: 0;
+          /* background-color: blue; */
+        }
+      }
     h4 {
       margin-top: 40px;
       margin-bottom: 20px;
