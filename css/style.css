@@ -2823,7 +2823,7 @@ html {
 
   }
   .cube-text-container .cube-text{
-    max-width: 900px;
+    max-width: 60%;
   }
   .recent-porject{
     background-color: black;
@@ -4763,7 +4763,7 @@ html {
       padding-bottom:2000px;
     }
     .cube-text-container .cube-text{
-      max-width: 250px;
+      max-width: 80%;
     }
       @keyframes parallax {
         to{
