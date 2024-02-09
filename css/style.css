@@ -2823,7 +2823,7 @@ html {
 
   }
   .cube-text-container .cube-text{
-    max-width: 80%;
+    max-width: 60%;
   }
   .recent-porject{
     background-color: black;
@@ -2833,7 +2833,7 @@ html {
     to{
       transform: translateY(calc(var(--parallax-speed) * -48px));
     }
-    20%{
+    24%{
       opacity: 1;
     }
     28%{
