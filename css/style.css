@@ -4760,23 +4760,21 @@ html {
   
   @media screen and (max-width: 479px) {
     .cube-text-container{
-      padding-bottom:800px;
+      padding-bottom:1200px;
     }
     .cube-text-container .cube-text{
       max-width: 80%;
     }
       @keyframes parallax {
         to{
-          transform: translateY(calc(var(--parallax-speed) * -80px));
+          transform: translateY(calc(var(--parallax-speed) * -75px));
         }
-        13%{
+        /* 13%{
           opacity: 1;
-          /* background-color: red; */
         }
         20%{
           opacity: 0;
-          /* background-color: blue; */
-        }
+        } */
       }
     h4 {
       margin-top: 40px;
@@ -5415,7 +5413,7 @@ html {
   margin-bottom: 0px; /* Add margin to separate from the section */
 }
 
-@media screen and (min-width: 430px) {
+/* @media screen and (min-width: 430px) {
   .cube-text-container{
     padding-bottom:900px;
   }
@@ -5428,11 +5426,10 @@ html {
       }
       23%{
         opacity: 1;
-        /* background-color: red; */
+
       }
       24%{
         opacity: 0;
-        /* background-color: blue; */
       }
     }
-  }
+  } */
