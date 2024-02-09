@@ -4767,7 +4767,7 @@ html {
     }
       @keyframes parallax {
         to{
-          transform: translateY(calc(var(--parallax-speed) * -80px));
+          transform: translateY(calc(var(--parallax-speed) * -45px));
         }
         13%{
           opacity: 1;
