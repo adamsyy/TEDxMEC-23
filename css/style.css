@@ -4760,14 +4760,14 @@ html {
   
   @media screen and (max-width: 479px) {
     .cube-text-container{
-      padding-bottom:2000px;
+      padding-bottom:800px;
     }
     .cube-text-container .cube-text{
       max-width: 80%;
     }
       @keyframes parallax {
         to{
-          transform: translateY(calc(var(--parallax-speed) * -45px));
+          transform: translateY(calc(var(--parallax-speed) * -80px));
         }
         13%{
           opacity: 1;
@@ -5414,3 +5414,25 @@ html {
   font-size: 4em; /* Adjust font size as needed for responsiveness */
   margin-bottom: 0px; /* Add margin to separate from the section */
 }
+
+@media screen and (min-width: 430px) {
+  .cube-text-container{
+    padding-bottom:900px;
+  }
+  .cube-text-container .cube-text{
+    max-width: 80%;
+  }
+    @keyframes parallax {
+      to{
+        transform: translateY(calc(var(--parallax-speed) * -80px));
+      }
+      23%{
+        opacity: 1;
+        /* background-color: red; */
+      }
+      24%{
+        opacity: 0;
+        /* background-color: blue; */
+      }
+    }
+  }
