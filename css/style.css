@@ -4140,6 +4140,17 @@ html {
     background-color: #fff;
   }
   
+  .pdf-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    padding: 0em 20%;
+    padding-top: 50px;
+    padding-bottom: 10em;
+  }
+
   @media screen and (min-width: 1440px) {
     .header {
       background-position: 110% 55%, 0 0;
