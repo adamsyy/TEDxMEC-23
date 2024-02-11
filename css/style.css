@@ -2831,7 +2831,7 @@ html {
 
   @keyframes parallax {
     to{
-      transform: translateY(calc(var(--parallax-speed) * -48px));
+      transform: translateY(calc(var(--parallax-speed) * -68px));
     }
     24%{
       opacity: 1;
@@ -4758,9 +4758,9 @@ html {
     }
     @keyframes parallax {
       to{
-        transform: translateY(calc(var(--parallax-speed) * -65px));
+        transform: translateY(calc(var(--parallax-speed) * -70px));
       }
-      20%{
+      24%{
         opacity: 1;
       }
       35%{
@@ -4778,7 +4778,7 @@ html {
     }
       @keyframes parallax {
         to{
-          transform: translateY(calc(var(--parallax-speed) * -75px));
+          transform: translateY(calc(var(--parallax-speed) * -85px));
         }
         /* 13%{
           opacity: 1;
