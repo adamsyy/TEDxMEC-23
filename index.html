@@ -486,7 +486,7 @@
                     <div data-w-id="300c25bb-718f-830c-6933-55244a944153"
                         style="-webkit-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
                         class="skill-title-wrap">
-                        <h2 style="padding-top: 80px;" class="skill-title heading-02 gradient-text">About Tedx</h2>
+                        <h2 style="padding-top: 80px;" class="skill-title heading-02 gradient-text">About TEDx</h2>
                         <!-- <h2 class="themetitle">Metamorphosis</h2> -->
                         
                     </div>     
@@ -1156,7 +1156,10 @@ class="w-dyn-list">
               const parallaxElement = document.querySelector('.cube-text-section');
               window.addEventListener('scroll', () => {
                 const scrollY = window.scrollY;
-                const parallaxSpeed = -1.3;
+                let parallaxSpeed = -1.7;
+                if (window.innerHeight>1000) {
+                    parallaxSpeed = -2.1
+                }
                 const transformValue = `translate3d(0, ${scrollY * parallaxSpeed}px, 0)`;
                 parallaxElement.style.transform = transformValue;
                 parallaxElement.style.opacity = 0;
