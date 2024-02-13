@@ -49,16 +49,6 @@
 </head>
 
 <body class="body---black">
-    <script>
-        function isSafari() {
-            return /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
-        }
-    
-        if (isSafari() && window.innerWidth < 500) {
-            document.write('<!--');
-        }
-    </script>
-
     <div id="video-container">
         <video autoplay muted loop id="background-video" class="video-bg">
             <source src="../assets/trial3.mp4" type="video/mp4">
@@ -66,11 +56,7 @@
         </video>
     </div>
 
-    <script>
-        if (isSafari() && window.innerWidth < 500) {
-            document.write('-->');
-        }
-    </script>
+    
 
     <div style="opacity:0" class="main">
         <div class="header">
@@ -87,8 +73,12 @@
                                 class="nav-link body-02---r dark-gray-text hover-text w-nav-link w--current">Home</a><a
                                 href="#about_tedx"
                                 class="nav-link body-02---r dark-gray-text hover-text w-nav-link">About
-                                us</a><a href="../team.html" target="_blank"
-                                class="nav-link body-02---r dark-gray-text hover-text w-nav-link">Team</a><a
+                                us</a>
+                                <!--
+                                <a href="../team.html" target="_blank"
+                                class="nav-link body-02---r dark-gray-text hover-text w-nav-link">Team</a>
+                                -->
+                                <a
                                 href="sponsor.html#previous_sponsors"
                                 class="nav-link body-02---r dark-gray-text hover-text w-nav-link">Partner with us</a>
                                 <a href="../gallery.html" class="nav-link body-02---r dark-gray-text hover-text w-nav-link">Gallery</a>
@@ -312,7 +302,7 @@
             </div> 
         </div>
     -->
-
+    <!--
     <section class="cube-section">
         <img class="theme-image" src="./assets/cube.jpg">
     </section>
@@ -324,20 +314,21 @@
                 Our voyage through existence is an intricate tapestry woven with the threads of philosophical inquiry, personal growth and shared experiences. 
                 At TEDxMEC, we journey on a profound exploration of the multidimensional nature of human existence. Our vision is to build a platform where you can forge connections and build conversations that explore multifaceted humanness. Through fervent words and engagement, we foster a community where philosophical enquiry into the fundamentals of life is celebrated.
             </div>
-            <!--
+            
             <a href="#" class="custom-link w-inline-block">
 
                 <div class="button-01---r body-02---r white-text">Our Theme</div>
             </a>
-        -->
+        
         </div>
     </section>
+-->
         
-        <!-- <section data-w-id="d4b59be6-fc6f-d92f-adb3-20167319ad8e" class="complete-section">
+         <section data-w-id="d4b59be6-fc6f-d92f-adb3-20167319ad8e" class="complete-section">
             <div class="custom-container">
                 <div class="complete-content">
-                    <div>
-                        <img class="theme-image" src="https://adamsyy.github.io/tedx-2022/metamorphosis-removebg.png">
+                    <div class="theme-image-container">
+                        <img style="padding: 100px 40px; width: 970px; height: 512px;" class="theme-image" src="assets/Cube Light.jpg">
                     </img>
                     </div>
                     <div class="complete-text-wrap">
@@ -352,7 +343,7 @@
             
                 </div>
             </div>
-        </section> -->
+        </section> 
 
 
 
@@ -1143,59 +1134,6 @@ class="w-dyn-list">
         type="text/javascript"></script>
 
         
-
-        <script>
-            function isSafari() {
-              return /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
-            }
-            
-            if (isSafari()) {
-              const style = document.createElement('style');
-              document.head.appendChild(style);
-            
-              const parallaxElement = document.querySelector('.cube-text-section');
-              window.addEventListener('scroll', () => {
-                const scrollY = window.scrollY;
-                let parallaxSpeed = -1.7;
-                if (window.innerHeight>1000) {
-                    parallaxSpeed = -2.1
-                }
-                const transformValue = `translate3d(0, ${scrollY * parallaxSpeed}px, 0)`;
-                parallaxElement.style.transform = transformValue;
-                parallaxElement.style.opacity = 0;
-                if (scrollY >500) {
-                    const viewportWidth = window.innerHeight;
-                    let opacityFactor;
-                    if (viewportWidth<620) {
-                        opacityFactor = Math.max(0, 400 - (scrollY - 500)) / 100;
-                    }
-                    else if (viewportWidth<801){
-                        opacityFactor = Math.max(0, 600 - (scrollY - 500)) / 100;
-                    } else if(viewportWidth<950) {
-                        opacityFactor = Math.max(0, 300 - (scrollY - 1100)) / 100;
-                    } else if(viewportWidth<1150) {
-                        opacityFactor = Math.max(0, 1200 - (scrollY - 500)) / 200;
-                    } else if (viewportWidth<1250) {
-                        opacityFactor = Math.max(0, 1400 - (scrollY - 500)) / 200;
-                    } else if (viewportWidth<1450) {
-                        opacityFactor = Math.max(0, 1650 - (scrollY - 500)) / 200;
-                    } else if (viewportWidth<1600) {
-                        opacityFactor = Math.max(0, 2100 - (scrollY - 500)) / 200;
-                    } else if (viewportWidth<1800) {
-                        opacityFactor = Math.max(0, 2300 - (scrollY - 500)) / 200;
-                    } else if (viewportWidth<2000) {
-                        opacityFactor = Math.max(0, 2600 - (scrollY - 500)) / 200;
-                    } else if (viewportWidth<2200) {
-                        opacityFactor = Math.max(0, 2900 - (scrollY - 500)) / 200;
-                    }
-                    else {
-                        opacityFactor = Math.max(0, 3300 - (scrollY - 500)) / 200;
-                    }
-                  parallaxElement.style.opacity = opacityFactor;
-                }
-              });
-            }
-            </script>
             
 </body>
 
