@@ -53,24 +53,22 @@
         function isSafari() {
             return /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
         }
-
-        if (isSafari() && window.innerWidth < 500) {
-            document.write('<!--');
+        function hideVideoContainerIfSafariAndSmallScreen() {
+            if (isSafari() && window.innerWidth < 500) {
+                var videoContainer = document.getElementById('video-container');
+                videoContainer.style.display = 'none';
+            }
         }
+        document.addEventListener('DOMContentLoaded', hideVideoContainerIfSafariAndSmallScreen);
     </script>
+
     <div id="video-container">
         <video autoplay muted loop id="background-video" class="video-bg">
             <source src="../assets/trial3.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
     </div>
-    <script>
-        if (isSafari() && window.innerWidth < 500) {
-            document.write('-->');
-        }
-    </script>
     
-
     <div style="opacity:0" class="main">
         <div class="header">
             <div class="navigation">
