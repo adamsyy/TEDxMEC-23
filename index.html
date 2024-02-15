@@ -56,7 +56,7 @@
         function hideVideoContainerIfSafariAndSmallScreen() {
             if (isSafari() && window.innerWidth < 500) {
                 var videoContainer = document.getElementById('video-container');
-                videoContainer.style.visibility = 'hidden';
+                videoContainer.style.display = 'none';
             }
         }
         document.addEventListener('DOMContentLoaded', hideVideoContainerIfSafariAndSmallScreen);
