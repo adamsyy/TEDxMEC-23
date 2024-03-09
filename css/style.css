@@ -3933,7 +3933,10 @@ html {
     justify-content: center;
     display: flex;
     padding-bottom: 7%;
+    
+
   }
+  
   
   .skill-title-wrap {
     width: 100%;
@@ -5520,10 +5523,22 @@ html {
 }
 
 @media screen and (min-width: 1025px) {
-  
+
   .container-hidden2 {
     display: none;
   }
 }
+@media only screen and (min-width: 50px) and (max-width: 817px) {
+  /* Your styles for medium-sized screens here */
+  .tr1 {
+    margin-top: -900px;
+  }
+}
 
 
+@media only screen and (min-width: 817px) and (max-width: 1024px) {
+  /* Your styles for medium-sized screens here */
+  .tr1 {
+    margin-top: -500px;
+  }
+}
