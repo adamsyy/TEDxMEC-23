@@ -5500,3 +5500,11 @@ html {
   justify-content: center;
   align-items: center;
 }
+
+.sp-photos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  grid-template-rows: auto;
+  grid-row-gap: 160px;
+}
