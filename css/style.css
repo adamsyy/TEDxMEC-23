@@ -4341,7 +4341,9 @@ html {
     .project-list {
       grid-column-gap: 40px;
       grid-row-gap: 40px;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr ;
+      padding-left: 150px;
+      padding-right: 150px;
     }
   
     .project-thumb-wrap {
@@ -4466,6 +4468,7 @@ html {
   }
   
   @media screen and (max-width: 769px) {
+    
     
     h4 {
       margin-top: 45px;
@@ -4626,6 +4629,7 @@ html {
   
     .project-list {
       grid-template-columns: 1fr;
+      padding: 0;
     }
   
     .hero---project-single {
@@ -4805,6 +4809,7 @@ html {
       font-size: 26px;
       line-height: 36px;
     }
+    
   
     .custom-container {
       margin-left: 20px;
@@ -5257,6 +5262,8 @@ html {
   }
   
   @media screen and (max-width: 991px) {
+  
+    
 
     .details p{
       font-size: 18px;
@@ -5369,6 +5376,8 @@ html {
 }
 
 @media screen and (max-width: 1025px) {
+ 
+  
   .details h3 {
     font-size: 25px;
   }
@@ -5501,10 +5510,20 @@ html {
   align-items: center;
 }
 
-.sp-photos {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-auto-columns: 1fr;
-  grid-template-rows: auto;
-  grid-row-gap: 160px;
+
+@media screen and (max-width: 1024px) {
+  
+ 
+  .container-hidden {
+    visibility: hidden;
+  }
 }
+
+@media screen and (min-width: 1025px) {
+  
+  .container-hidden2 {
+    display: none;
+  }
+}
+
+
