@@ -196,29 +196,28 @@ html {
     line-height: 1;
     font-family: webflow-icons !important;
   }
-  
   .w-icon-slider-right:before {
-    content: "î˜€";
+    content: "";
   }
   
   .w-icon-slider-left:before {
-    content: "î˜";
+    content: "";
   }
   
   .w-icon-nav-menu:before {
-    content: "î˜‚";
+    content: "";
   }
   
   .w-icon-arrow-down:before, .w-icon-dropdown-toggle:before {
-    content: "î˜ƒ";
+    content: "";
   }
   
   .w-icon-file-upload-remove:before {
-    content: "î¤€";
+    content: "";
   }
   
   .w-icon-file-upload-icon:before {
-    content: "î¤ƒ";
+    content: "";
   }
   
   * {
@@ -3358,7 +3357,7 @@ html {
   .hero-big-thumb---project-sing {
     width: 100%;
     height: 100%;
-    object-fit: fill;
+    object-fit: cover;
     
   }
   
@@ -4906,7 +4905,7 @@ html {
     }
   
     .project-heading---single {
-      padding-right: 20px;
+      padding-right: 22px;
       left: 20px;
     }
   
