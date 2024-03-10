@@ -196,29 +196,28 @@ html {
     line-height: 1;
     font-family: webflow-icons !important;
   }
-  
   .w-icon-slider-right:before {
-    content: "î˜€";
+    content: "";
   }
   
   .w-icon-slider-left:before {
-    content: "î˜";
+    content: "";
   }
   
   .w-icon-nav-menu:before {
-    content: "î˜‚";
+    content: "";
   }
   
   .w-icon-arrow-down:before, .w-icon-dropdown-toggle:before {
-    content: "î˜ƒ";
+    content: "";
   }
   
   .w-icon-file-upload-remove:before {
-    content: "î¤€";
+    content: "";
   }
   
   .w-icon-file-upload-icon:before {
-    content: "î¤ƒ";
+    content: "";
   }
   
   * {
@@ -3359,6 +3358,7 @@ html {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    
   }
   
   .musk---project {
@@ -4905,7 +4905,7 @@ html {
     }
   
     .project-heading---single {
-      padding-right: 20px;
+      padding-right: 22px;
       left: 20px;
     }
   
@@ -5178,3 +5178,18 @@ html {
     font-style: normal;
     font-display: swap;
   }
+  .ri--linkedin-line {
+    border-radius: 50%;
+    border: 1px solid var(--dark-gray);
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+    background-repeat: no-repeat;
+    background-size: 70% 70%;
+    background-position: center;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='white' d='M12.001 9.55c.917-.937 2.111-1.55 3.5-1.55a5.5 5.5 0 0 1 5.5 5.5V21h-2v-7.5a3.5 3.5 0 1 0-7 0V21h-2V8.5h2zm-7-3.05a1.5 1.5 0 1 1 0-3a1.5 1.5 0 0 1 0 3m-1 2h2V21h-2z'/%3E%3C/svg%3E");
+  }
+  .website-brand-img {
+    width: 150px;
+    height: 70px;
+}
