@@ -1,4 +1,3 @@
-# TEDx MEC Website
 
 
 ![tedxmeclogo](https://github.com/adamsyy/TEDxMEC-23/assets/75473780/725dbc24-fb0c-48e4-90fc-c36ee3612157)
@@ -6,6 +5,12 @@
 ## Description
 
 The TEDx MEC website is a web application created using HTML, CSS, and JavaScript. It serves as a platform to promote and share information about TEDx events at MEC, featuring various talks and speakers who have shared their innovative ideas.
+
+![6](https://github.com/adamsyy/TEDxMEC-23/assets/75473780/9514a8aa-18cb-4846-92d6-a0c9e8d37199)
+![2](https://github.com/adamsyy/TEDxMEC-23/assets/75473780/919c78f5-fede-4fd7-a342-b0b895f0e3b8)
+![1](https://github.com/adamsyy/TEDxMEC-23/assets/75473780/5de0ea9d-6f48-43da-8115-3148298cdd42)
+![3](https://github.com/adamsyy/TEDxMEC-23/assets/75473780/0624ea90-def3-4327-8fee-416dc30ac7de)# TEDx MEC Website
+![4](https://github.com/adamsyy/TEDxMEC-23/assets/75473780/9228d819-a415-4b56-abee-846ee009d4af)
 
 ## Features
 
